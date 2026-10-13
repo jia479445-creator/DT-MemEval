@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+configs/*.local.json
+*.checkpoint.json
+work/
+output/
+tmp/
+results/
+.venv/

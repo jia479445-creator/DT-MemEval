@@ -1,0 +1,192 @@
+{
+  "release": "1.0.0",
+  "schema_version": "6.1-full-history-interchange",
+  "qa_version": "6.1-dual-timeline-competence",
+  "counts": {
+    "sequences": 4,
+    "sessions": 519,
+    "questions": 2000
+  },
+  "tasks": {
+    "A1": 250,
+    "A2": 250,
+    "B1": 250,
+    "B2": 250,
+    "C1": 250,
+    "C2": 250,
+    "D1": 250,
+    "D2": 250
+  },
+  "sampling": {
+    "seed": 42,
+    "base_quota": 250,
+    "target_questions": 2000,
+    "candidate_counts": {
+      "single_axis_localization": 4464,
+      "dual_time_attribution": 2232,
+      "retrospective_state": 3402,
+      "state_determination": 7898,
+      "knowledge_evolution": 110778,
+      "interval_reconstruction": 1037,
+      "dual_axis_order": 27990,
+      "dual_history_reconstruction": 4504
+    },
+    "shortfalls": {},
+    "strata_counts": {
+      "single_axis_localization": {
+        "valid": 125,
+        "observation": 125
+      },
+      "dual_time_attribution": {
+        "all": 250
+      },
+      "interval_reconstruction": {
+        "all": 250
+      },
+      "dual_history_reconstruction": {
+        "3": 84,
+        "4": 83,
+        "5": 83
+      },
+      "dual_axis_order": {
+        "aligned": 84,
+        "inverted": 83,
+        "tied_axis": 83
+      },
+      "state_determination": {
+        "Confirmed": 84,
+        "Refuted": 83,
+        "Undetermined": 83
+      },
+      "retrospective_state": {
+        "Complete": 84,
+        "Partial": 83,
+        "Unknown": 83
+      },
+      "knowledge_evolution": {
+        "Confirmed->Confirmed": 50,
+        "Refuted->Refuted": 50,
+        "Undetermined->Confirmed": 50,
+        "Undetermined->Refuted": 50,
+        "Undetermined->Undetermined": 50
+      }
+    },
+    "policy": "equal task quotas; condition strata; domain round robin"
+  },
+  "model_provenance": {
+    "early_dialogue_generation": {
+      "model": "gpt-4o-mini",
+      "evidence": "Maintainer-confirmed project history; original early-generation logs are not included."
+    },
+    "saved_release_dialogue_records": {
+      "generator": "gpt-5.4-mini",
+      "auditor": "gpt-5.4-mini",
+      "record_count": 519,
+      "evidence": "construction/audited_sessions.json; stored model labels describe the retained records and do not establish the original authorship of every sentence."
+    },
+    "candidate_names": "gpt-5.4-mini",
+    "questions_and_gold": "Offline programmatic generation; no LLM calls."
+  },
+  "artifacts": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "8e4de85ca970739880f8a92141688a73b97a8cac821a6dd0ffd99f1086528930"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "2bfc547688026cc43d5c6dc57ccb87cecbbc91cedc5e8cc1f64ebe2b85af3ab1"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "b7e5f6124bff8d3cd616a289b4d5acd3f269952d9722184b83ed775a2cb5d6fe"
+    },
+    {
+      "path": "README.md",
+      "sha256": "54055ccec9391084c83b8f978fbeb7c9f03caa70bedee9f39a3d341767bf6a2d"
+    },
+    {
+      "path": "construction/audited_sessions.json",
+      "sha256": "7fac15ac5f8618ec0ca80c00abd25c1c3178c04fdb23b8f30e3f8faf7298b97a"
+    },
+    {
+      "path": "data/llm_natural/01_virtual_facts.json",
+      "sha256": "906c464a4bb2c0405f01663baa279ef909e467d8b34ef205966e36dd8d6e8dd7"
+    },
+    {
+      "path": "data/llm_natural/06_standard.json",
+      "sha256": "8415eaf91d5d17a6354d0ffa136bae20022d0e84536c0953a68a0734b0a49b2a"
+    },
+    {
+      "path": "docs/DATASET_CARD.md",
+      "sha256": "35f5a1488e88cd309276f1793a391729e0f14a5989ca3de9911b2aa1584b2248"
+    },
+    {
+      "path": "docs/DATA_FORMAT.md",
+      "sha256": "a115813198136fa24e2cf10f4821153ec70adf86b6714cc4d4dc519693ee7699"
+    },
+    {
+      "path": "scripts/build_dataset.py",
+      "sha256": "0ab672bafc10e2d9212f28b4955791a730bfdda1d78c0e760f1e6e1142feb1a4"
+    },
+    {
+      "path": "scripts/inspect_benchmark.py",
+      "sha256": "eef7a6c6f44bea173016a22cfb6dd3c44aba369fd77b0a979f1b327c631f7b77"
+    },
+    {
+      "path": "scripts/rebuild_full_history_qa.py",
+      "sha256": "9a13de8a2a18bd834459d2e98bee0758f1f6a425661511332ca41a784224e3a1"
+    },
+    {
+      "path": "src/__init__.py",
+      "sha256": "919a9d5df16fb38fcdb31402328ef136b107e3623ddb5a3bf15a89cbca929b69"
+    },
+    {
+      "path": "src/core/__init__.py",
+      "sha256": "c3125ed935402130d63399c70d611398589e508b5bcd1a282bca02a284ae0d5a"
+    },
+    {
+      "path": "src/core/dialogue_scenarios.py",
+      "sha256": "74a7f687eced7ed1f78d16b9ceea9cd5bfd160c96af335f89ebccb8c2b25a397"
+    },
+    {
+      "path": "src/core/natural_dialogue.py",
+      "sha256": "45c7059440a94d802e942d3be5fa6e96cda22a745f0582f96808057ffff8233d"
+    },
+    {
+      "path": "src/core/temporal.py",
+      "sha256": "c43f406921cf006eeef317bbfe996dc683ec7bad947914df9323c846cbdd361d"
+    },
+    {
+      "path": "src/core/validate_dataset.py",
+      "sha256": "40293279a7939a0bc3d4a4f5afd878448d5387665cbff12bda149cb512ceb783"
+    },
+    {
+      "path": "src/qa/__init__.py",
+      "sha256": "92e513d359412b4e83d98aa8119ca78b83555f044171deaf8b568dd7ab63d671"
+    },
+    {
+      "path": "src/qa/checkpoint_qa.py",
+      "sha256": "fdddb5e369855aefbde295f39a8cdc1238bee64735ce1092b88e044f5f08616e"
+    },
+    {
+      "path": "src/qa/competence_qa.py",
+      "sha256": "2956e4be1d009c97514cec77edc5ccc3ca05d412cddef8b1eccb3373c0527367"
+    },
+    {
+      "path": "src/qa/prompts.py",
+      "sha256": "a54d9d6f9cdc7a2c8647d155b9bf9c46e8ae194f6bfdc848c90b704eaeda5c89"
+    },
+    {
+      "path": "src/qa/validation.py",
+      "sha256": "bf17c59cbe8403997d586f54f48f4b8d08904c7ade338174d21162c387d0289b"
+    },
+    {
+      "path": "tests/test_competence_qa.py",
+      "sha256": "0f7fcced966a704c6103327ef07dbeba54c4fd29b93b9759b64a836f25c5e8d1"
+    }
+  ],
+  "checks": {
+    "offline_tests_passed": 8,
+    "dataset_rebuild_matches_original": true
+  }
+}

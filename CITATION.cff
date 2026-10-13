@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the exact release or commit used."
+type: software
+title: "DT-MemEval: A Benchmark for Factual and Observation Time in Conversational Memory"
+authors:
+  - name: "Anonymous authors"
+version: 1.0.0
+abstract: "A synthetic conversational memory benchmark with 519 sessions and 2000 questions across eight dual-time reasoning tasks."
+keywords:
+  - temporal reasoning
+  - conversational memory
+  - benchmark
