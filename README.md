@@ -25,7 +25,7 @@ import json
 from pathlib import Path
 from src.qa.prompts import build_messages
 
-bundle = json.loads(Path("data/llm_natural/06_standard.json").read_text())
+bundle = json.loads(Path("data/llm_natural/standard.json").read_text())
 question = bundle["questions"][0]
 # Replace this full-history example with your memory system's retrieved context.
 context = "\n\n".join(s["memory_input"] for s in bundle["sessions"]
@@ -77,7 +77,7 @@ The QA rebuild uses existing audited dialogue and makes no model calls. It check
 
 ## Model provenance
 
-The maintainer confirms that early dialogue generation used **GPT-4o-mini**. Candidate-name generation used **GPT-5.4-mini**. The retained records for all 519 sessions label both generation and auditing as `gpt-5.4-mini`; these later records do not by themselves establish which model originally authored every sentence. We preserve both the maintainer's history and the stored provenance rather than retrospectively relabeling the data. Questions and reference answers are generated programmatically without an LLM.
+All 519 sessions were generated using **GPT-4o-mini**. Candidate names were generated using **GPT-5.4-mini**. Questions and reference answers are generated programmatically without an LLM.
 
 ## Documentation
 

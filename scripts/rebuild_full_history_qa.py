@@ -16,10 +16,10 @@ from src.qa.validation import validate_standard
 
 def rebuild(input_dir,checkpoint,seed=42,quota=250):
     directory=Path(input_dir);cp=Path(checkpoint)
-    old_bytes=(directory/'06_standard.json').read_bytes();old=json.loads(old_bytes)
+    old_bytes=(directory/'standard.json').read_bytes();old=json.loads(old_bytes)
     state=json.loads(cp.read_text())
     if state.get('status')!='complete' or state.get('failed'):raise ValueError('Complete natural dialogue checkpoint required')
-    facts=json.loads((directory/'01_virtual_facts.json').read_text())
+    facts=json.loads((directory/'virtual_facts.json').read_text())
     doc=schedule_document(normalize_timelines(facts),seed)
     plans=[{'session_id':s['session_id'],'plan':session_plan(s,d['timelines'])} for d in doc['domains'] for s in d['sessions']]
     if sha(plans)!=state['provenance']['plans_sha256']:raise ValueError('Checkpoint does not match source schedule')
@@ -40,7 +40,7 @@ def rebuild(input_dir,checkpoint,seed=42,quota=250):
     bundle=export_bundle(doc,qa,old['sessions']);validate_standard(bundle)
     assert bundle['sessions']==old['sessions']
     report = {'schema_version': VERSION, 'counts': {'sessions': len(bundle['sessions']), 'questions': len(bundle['questions']), 'sequences': len(bundle['sequences'])}, **{k:qa[k] for k in ('question_summary','dimension_summary','scope_summary','sampling')}, 'session_objects_unchanged': True, 'llm_calls': 0}
-    for name, data in [('06_standard.json', bundle), ('qa_rebuild_report.json', report)]:
+    for name, data in [('standard.json', bundle), ('qa_rebuild_report.json', report)]:
         with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=directory,
                                          delete=False, suffix='.json') as handle:
             json.dump(data, handle, ensure_ascii=False, indent=2)

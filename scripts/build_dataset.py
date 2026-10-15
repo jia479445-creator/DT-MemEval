@@ -300,7 +300,7 @@ def build_document(source: dict, limit: int = 0, seed: int = 42, per_domain_limi
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Build an offline session schedule from fictional facts.")
-    parser.add_argument("--source", type=Path, default=ROOT / "data/llm_natural/01_virtual_facts.json")
+    parser.add_argument("--source", type=Path, default=ROOT / "data/llm_natural/virtual_facts.json")
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()

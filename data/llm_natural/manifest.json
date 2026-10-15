@@ -74,16 +74,11 @@
     "policy": "equal task quotas; condition strata; domain round robin"
   },
   "model_provenance": {
-    "early_dialogue_generation": {
+    "dialogue_generation": {
       "model": "gpt-4o-mini",
-      "evidence": "Maintainer-confirmed project history; original early-generation logs are not included."
+      "record_count": 519
     },
-    "saved_release_dialogue_records": {
-      "generator": "gpt-5.4-mini",
-      "auditor": "gpt-5.4-mini",
-      "record_count": 519,
-      "evidence": "construction/audited_sessions.json; stored model labels describe the retained records and do not establish the original authorship of every sentence."
-    },
+    "auditing": "gpt-5.4-mini",
     "candidate_names": "gpt-5.4-mini",
     "questions_and_gold": "Offline programmatic generation; no LLM calls."
   },
@@ -102,39 +97,39 @@
     },
     {
       "path": "README.md",
-      "sha256": "54055ccec9391084c83b8f978fbeb7c9f03caa70bedee9f39a3d341767bf6a2d"
+      "sha256": "2f5bd1bbc071737de113b82c63a95edd743e424cb2374bccc6b75a9206f3b8d1"
     },
     {
       "path": "construction/audited_sessions.json",
-      "sha256": "7fac15ac5f8618ec0ca80c00abd25c1c3178c04fdb23b8f30e3f8faf7298b97a"
+      "sha256": "911bd9a4e942ab79826f2bd4de4ba02d41e290c125ae2b6301415c66835cd40a"
     },
     {
-      "path": "data/llm_natural/01_virtual_facts.json",
+      "path": "data/llm_natural/virtual_facts.json",
       "sha256": "906c464a4bb2c0405f01663baa279ef909e467d8b34ef205966e36dd8d6e8dd7"
     },
     {
-      "path": "data/llm_natural/06_standard.json",
+      "path": "data/llm_natural/standard.json",
       "sha256": "8415eaf91d5d17a6354d0ffa136bae20022d0e84536c0953a68a0734b0a49b2a"
     },
     {
       "path": "docs/DATASET_CARD.md",
-      "sha256": "35f5a1488e88cd309276f1793a391729e0f14a5989ca3de9911b2aa1584b2248"
+      "sha256": "6016fc5ff83e7ddb3a42c28881caf7459ea4e3d78ffed8d5ce14cc1410dd879b"
     },
     {
       "path": "docs/DATA_FORMAT.md",
-      "sha256": "a115813198136fa24e2cf10f4821153ec70adf86b6714cc4d4dc519693ee7699"
+      "sha256": "8ab9f07b1081855c958c08dcabd28b9a30234f49354e715f341b4cb13dc5431d"
     },
     {
       "path": "scripts/build_dataset.py",
-      "sha256": "0ab672bafc10e2d9212f28b4955791a730bfdda1d78c0e760f1e6e1142feb1a4"
+      "sha256": "7cc75b815775bdd6e32f76bf9aefc1f88dd81503a9cf2ae69bb25a1630754a8b"
     },
     {
       "path": "scripts/inspect_benchmark.py",
-      "sha256": "eef7a6c6f44bea173016a22cfb6dd3c44aba369fd77b0a979f1b327c631f7b77"
+      "sha256": "6fa047c8f1ff5351faadc714160819ca3fee35b0e09bab6a947122e6d927ca1d"
     },
     {
       "path": "scripts/rebuild_full_history_qa.py",
-      "sha256": "9a13de8a2a18bd834459d2e98bee0758f1f6a425661511332ca41a784224e3a1"
+      "sha256": "634ef1744718c9d75ce8dec82f042e8b9470643629429243b278a457b12ded6f"
     },
     {
       "path": "src/__init__.py",

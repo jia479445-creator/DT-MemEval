@@ -8,7 +8,7 @@ sys.path.insert(0, str(ROOT))
 from src.qa.validation import validate_standard
 
 def main():
-    bundle = json.loads((ROOT / "data/llm_natural/06_standard.json").read_text())
+    bundle = json.loads((ROOT / "data/llm_natural/standard.json").read_text())
     validate_standard(bundle)
     questions = bundle["questions"]
     ids = [q["question_id"] for q in questions]

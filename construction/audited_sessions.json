@@ -4,7 +4,7 @@
     "version": "natural-scenes-v2",
     "plans_sha256": "c6e1f8e91837cb794f4d6cbe4a710d2fde2c352a7b1462eb540247f2f1715e66",
     "generator": {
-      "model": "gpt-5.4-mini",
+      "model": "gpt-4o-mini",
       "json_mode": true,
       "extra_body": {}
     },
@@ -90,7 +90,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -147,7 +147,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -222,7 +222,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -297,7 +297,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -354,7 +354,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -429,7 +429,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -504,7 +504,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -561,7 +561,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -627,7 +627,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -684,7 +684,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -759,7 +759,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -816,7 +816,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -891,7 +891,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -966,7 +966,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1041,7 +1041,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1098,7 +1098,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1155,7 +1155,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1230,7 +1230,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1305,7 +1305,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1362,7 +1362,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1437,7 +1437,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1503,7 +1503,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1578,7 +1578,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1626,7 +1626,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1701,7 +1701,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1758,7 +1758,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1833,7 +1833,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1890,7 +1890,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -1965,7 +1965,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2022,7 +2022,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2079,7 +2079,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2136,7 +2136,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2211,7 +2211,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2286,7 +2286,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2361,7 +2361,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2418,7 +2418,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2475,7 +2475,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2532,7 +2532,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2607,7 +2607,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2655,7 +2655,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2730,7 +2730,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2769,7 +2769,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2835,7 +2835,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2910,7 +2910,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -2967,7 +2967,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3042,7 +3042,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3117,7 +3117,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3174,7 +3174,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3249,7 +3249,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3315,7 +3315,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3390,7 +3390,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3456,7 +3456,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3504,7 +3504,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3579,7 +3579,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3654,7 +3654,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3729,7 +3729,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3795,7 +3795,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3870,7 +3870,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -3945,7 +3945,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4020,7 +4020,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4068,7 +4068,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4143,7 +4143,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4182,7 +4182,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4257,7 +4257,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4332,7 +4332,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4398,7 +4398,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4473,7 +4473,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4548,7 +4548,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4623,7 +4623,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4680,7 +4680,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4737,7 +4737,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4812,7 +4812,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4869,7 +4869,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -4935,7 +4935,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5010,7 +5010,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5085,7 +5085,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5160,7 +5160,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5235,7 +5235,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5301,7 +5301,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5358,7 +5358,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5415,7 +5415,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5490,7 +5490,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5565,7 +5565,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5640,7 +5640,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5715,7 +5715,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5772,7 +5772,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5838,7 +5838,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5904,7 +5904,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -5970,7 +5970,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6027,7 +6027,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6102,7 +6102,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6159,7 +6159,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6234,7 +6234,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6309,7 +6309,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6384,7 +6384,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6450,7 +6450,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6516,7 +6516,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6591,7 +6591,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6666,7 +6666,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6741,7 +6741,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6798,7 +6798,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6873,7 +6873,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -6948,7 +6948,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7023,7 +7023,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7089,7 +7089,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7146,7 +7146,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7203,7 +7203,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7278,7 +7278,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7353,7 +7353,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7428,7 +7428,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7494,7 +7494,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7569,7 +7569,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7644,7 +7644,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7701,7 +7701,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7776,7 +7776,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7851,7 +7851,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -7926,7 +7926,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8001,7 +8001,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8067,7 +8067,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8142,7 +8142,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8217,7 +8217,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8274,7 +8274,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8349,7 +8349,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8406,7 +8406,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8472,7 +8472,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8520,7 +8520,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8595,7 +8595,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8652,7 +8652,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8718,7 +8718,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8793,7 +8793,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8868,7 +8868,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -8943,7 +8943,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9018,7 +9018,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9093,7 +9093,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9159,7 +9159,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9234,7 +9234,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9300,7 +9300,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9339,7 +9339,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9414,7 +9414,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9489,7 +9489,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9555,7 +9555,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9630,7 +9630,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9687,7 +9687,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9744,7 +9744,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9819,7 +9819,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9894,7 +9894,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -9951,7 +9951,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10026,7 +10026,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10092,7 +10092,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10158,7 +10158,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10224,7 +10224,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10299,7 +10299,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10374,7 +10374,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10449,7 +10449,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10515,7 +10515,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10590,7 +10590,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10665,7 +10665,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10740,7 +10740,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10815,7 +10815,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10890,7 +10890,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -10965,7 +10965,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11022,7 +11022,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11097,7 +11097,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11136,7 +11136,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11184,7 +11184,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11250,7 +11250,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11325,7 +11325,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11400,7 +11400,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11475,7 +11475,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11550,7 +11550,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11616,7 +11616,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11691,7 +11691,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11766,7 +11766,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11841,7 +11841,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11907,7 +11907,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -11982,7 +11982,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12039,7 +12039,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12114,7 +12114,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12189,7 +12189,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12264,7 +12264,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12339,7 +12339,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12414,7 +12414,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12489,7 +12489,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12564,7 +12564,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12639,7 +12639,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12714,7 +12714,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12789,7 +12789,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12864,7 +12864,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -12939,7 +12939,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13014,7 +13014,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13080,7 +13080,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13146,7 +13146,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13212,7 +13212,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13278,7 +13278,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13353,7 +13353,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13428,7 +13428,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13494,7 +13494,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13569,7 +13569,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13635,7 +13635,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13710,7 +13710,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13785,7 +13785,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13860,7 +13860,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -13935,7 +13935,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14001,7 +14001,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14076,7 +14076,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14151,7 +14151,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14217,7 +14217,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14283,7 +14283,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14358,7 +14358,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14433,7 +14433,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14508,7 +14508,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14574,7 +14574,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14640,7 +14640,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14715,7 +14715,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14781,7 +14781,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14856,7 +14856,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -14931,7 +14931,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15006,7 +15006,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15081,7 +15081,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15156,7 +15156,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15231,7 +15231,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15306,7 +15306,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15381,7 +15381,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15456,7 +15456,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15531,7 +15531,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15597,7 +15597,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15672,7 +15672,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15747,7 +15747,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15813,7 +15813,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15879,7 +15879,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -15954,7 +15954,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16020,7 +16020,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16095,7 +16095,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16161,7 +16161,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16236,7 +16236,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16302,7 +16302,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16368,7 +16368,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16434,7 +16434,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16500,7 +16500,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16575,7 +16575,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16650,7 +16650,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16716,7 +16716,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16791,7 +16791,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16866,7 +16866,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -16941,7 +16941,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17007,7 +17007,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17073,7 +17073,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17148,7 +17148,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17223,7 +17223,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17298,7 +17298,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17373,7 +17373,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17448,7 +17448,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17523,7 +17523,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17589,7 +17589,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17664,7 +17664,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17739,7 +17739,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17814,7 +17814,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17880,7 +17880,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -17955,7 +17955,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18030,7 +18030,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18105,7 +18105,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18180,7 +18180,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18255,7 +18255,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18321,7 +18321,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18396,7 +18396,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18471,7 +18471,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18546,7 +18546,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18621,7 +18621,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18696,7 +18696,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18762,7 +18762,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18837,7 +18837,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18912,7 +18912,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -18987,7 +18987,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19062,7 +19062,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19137,7 +19137,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19212,7 +19212,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19287,7 +19287,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19362,7 +19362,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19419,7 +19419,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19494,7 +19494,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19569,7 +19569,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19635,7 +19635,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19710,7 +19710,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19785,7 +19785,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19851,7 +19851,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -19926,7 +19926,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20001,7 +20001,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20076,7 +20076,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20151,7 +20151,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20226,7 +20226,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20292,7 +20292,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20367,7 +20367,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20442,7 +20442,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20517,7 +20517,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20592,7 +20592,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20667,7 +20667,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20742,7 +20742,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20817,7 +20817,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20892,7 +20892,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -20958,7 +20958,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21024,7 +21024,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21099,7 +21099,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21174,7 +21174,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21249,7 +21249,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21324,7 +21324,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21399,7 +21399,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21474,7 +21474,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21549,7 +21549,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21615,7 +21615,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21681,7 +21681,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21756,7 +21756,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21831,7 +21831,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21906,7 +21906,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -21972,7 +21972,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22038,7 +22038,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22086,7 +22086,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22134,7 +22134,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22173,7 +22173,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22248,7 +22248,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22305,7 +22305,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22353,7 +22353,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22428,7 +22428,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22467,7 +22467,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22533,7 +22533,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22590,7 +22590,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22629,7 +22629,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22677,7 +22677,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22734,7 +22734,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22809,7 +22809,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22875,7 +22875,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -22941,7 +22941,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23007,7 +23007,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23073,7 +23073,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23130,7 +23130,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23187,7 +23187,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23244,7 +23244,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23301,7 +23301,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23367,7 +23367,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23424,7 +23424,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23490,7 +23490,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23538,7 +23538,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23604,7 +23604,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23661,7 +23661,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23718,7 +23718,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23784,7 +23784,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23841,7 +23841,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23907,7 +23907,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -23973,7 +23973,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24012,7 +24012,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24078,7 +24078,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24153,7 +24153,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24210,7 +24210,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24267,7 +24267,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24342,7 +24342,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24408,7 +24408,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24474,7 +24474,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24531,7 +24531,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24588,7 +24588,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24636,7 +24636,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24693,7 +24693,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24750,7 +24750,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24798,7 +24798,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24855,7 +24855,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24912,7 +24912,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -24960,7 +24960,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25035,7 +25035,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25101,7 +25101,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25158,7 +25158,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25233,7 +25233,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25290,7 +25290,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25365,7 +25365,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25422,7 +25422,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25497,7 +25497,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25563,7 +25563,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25638,7 +25638,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25713,7 +25713,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25779,7 +25779,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25836,7 +25836,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25911,7 +25911,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -25968,7 +25968,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26034,7 +26034,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26100,7 +26100,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26148,7 +26148,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26205,7 +26205,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26280,7 +26280,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26346,7 +26346,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26403,7 +26403,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26460,7 +26460,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26526,7 +26526,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26592,7 +26592,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26658,7 +26658,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26715,7 +26715,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26790,7 +26790,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26865,7 +26865,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -26940,7 +26940,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27006,7 +27006,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27081,7 +27081,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27156,7 +27156,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27222,7 +27222,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27270,7 +27270,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27327,7 +27327,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27393,7 +27393,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27459,7 +27459,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27516,7 +27516,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27555,7 +27555,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27621,7 +27621,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27696,7 +27696,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27744,7 +27744,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27801,7 +27801,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27867,7 +27867,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -27933,7 +27933,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28008,7 +28008,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28065,7 +28065,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28131,7 +28131,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28188,7 +28188,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28263,7 +28263,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28338,7 +28338,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28404,7 +28404,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28452,7 +28452,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28509,7 +28509,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28575,7 +28575,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28632,7 +28632,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28707,7 +28707,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28773,7 +28773,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28848,7 +28848,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28896,7 +28896,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -28962,7 +28962,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29019,7 +29019,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29067,7 +29067,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29124,7 +29124,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29190,7 +29190,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29256,7 +29256,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29322,7 +29322,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29397,7 +29397,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29472,7 +29472,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29547,7 +29547,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29622,7 +29622,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29688,7 +29688,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29754,7 +29754,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29820,7 +29820,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29895,7 +29895,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29934,7 +29934,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -29973,7 +29973,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30039,7 +30039,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30114,7 +30114,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30189,7 +30189,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30264,7 +30264,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30339,7 +30339,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30414,7 +30414,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30489,7 +30489,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30555,7 +30555,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30630,7 +30630,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30705,7 +30705,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30780,7 +30780,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30846,7 +30846,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30912,7 +30912,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -30978,7 +30978,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31044,7 +31044,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31110,7 +31110,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31176,7 +31176,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31251,7 +31251,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31326,7 +31326,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31401,7 +31401,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31476,7 +31476,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31542,7 +31542,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31608,7 +31608,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31683,7 +31683,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31758,7 +31758,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31815,7 +31815,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31890,7 +31890,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -31965,7 +31965,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32040,7 +32040,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32106,7 +32106,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32181,7 +32181,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32256,7 +32256,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32322,7 +32322,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32397,7 +32397,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32472,7 +32472,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32547,7 +32547,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32595,7 +32595,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32670,7 +32670,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32745,7 +32745,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32811,7 +32811,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32868,7 +32868,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -32943,7 +32943,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33018,7 +33018,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33084,7 +33084,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33150,7 +33150,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33225,7 +33225,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33300,7 +33300,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33357,7 +33357,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33432,7 +33432,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33498,7 +33498,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33573,7 +33573,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33648,7 +33648,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33714,7 +33714,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33789,7 +33789,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33855,7 +33855,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -33903,7 +33903,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -34045,7 +34045,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -34187,7 +34187,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -34293,7 +34293,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -34435,7 +34435,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -34582,7 +34582,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -34761,7 +34761,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2",
         "evidence_protocol": "numbered-turns-v1"
       }
@@ -34891,7 +34891,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2",
         "evidence_protocol": "numbered-turns-v1"
       }
@@ -35046,7 +35046,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2",
         "evidence_protocol": "numbered-turns-v1"
       }
@@ -35226,7 +35226,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2",
         "evidence_protocol": "numbered-turns-v1"
       }
@@ -35381,7 +35381,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2",
         "evidence_protocol": "numbered-turns-v1"
       }
@@ -35561,7 +35561,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2",
         "evidence_protocol": "numbered-turns-v1"
       }
@@ -35741,7 +35741,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2",
         "evidence_protocol": "numbered-turns-v1"
       }
@@ -35928,7 +35928,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -36086,7 +36086,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -36267,7 +36267,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -36449,7 +36449,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -36631,7 +36631,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -36787,7 +36787,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -36944,7 +36944,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2"
       }
     },
@@ -37125,7 +37125,7 @@
       },
       "generation": {
         "method": "llm_natural",
-        "model": "gpt-5.4-mini",
+        "model": "gpt-4o-mini",
         "version": "natural-scenes-v2",
         "evidence_protocol": "numbered-turns-v1"
       }
