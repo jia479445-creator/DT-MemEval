@@ -1,6 +1,6 @@
 # Data format
 
-The canonical bundle is `data/llm_natural/06_standard.json`, with schema `6.1-full-history-interchange`.
+The canonical bundle is `data/llm_natural/standard.json`.
 
 | Top-level field | Contents |
 |---|---|
@@ -22,10 +22,10 @@ Every question runs at `evaluation_at: trajectory_end`. This scheduling choice d
 
 ## Evaluator-only fields
 
-Question `evaluation` contains reference answers, evidence and audit annotations. Evidence uses session timestamps and aligned source text. Character offsets refer to Python Unicode indices in session `content`, excluding metadata headers. Minimal support sets can encode alternative sufficient evidence combinations.
+Question `evaluation` contains reference answers, evidence and audit annotations. Evidence uses session timestamps and aligned source text.
 
-The virtual facts and `construction/` contents are construction/evaluation inputs only. They must not be ingested by the memory system. Gold supervision being publicly downloadable does not authorize benchmark models to consume it.
+The virtual facts and `construction/` contents are construction/evaluation inputs only. They must not be ingested by the memory system.
 
 ## Evaluation protocol
 
-Build memory separately for each sequence in increasing `session_index` order. Retrieve and answer at trajectory end using the public prompts, respecting D1/D2 historical cutoffs. Save predictions before judging. Report answer accuracy, evidence accuracy and grounded accuracy (both correct), overall and per task/dimension, with denominators and judge errors counted separately. Accept alternative sufficient evidence sets within the allowed scope. Record the release hash, memory system, answer/judge models, prompts and retrieval budget. This repository does not implement a judge or supply baseline scores.
+Build memory separately for each sequence in increasing `session_index` order. Retrieve and answer at trajectory end using the public prompts.
