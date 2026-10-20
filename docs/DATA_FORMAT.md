@@ -16,7 +16,7 @@ The canonical bundle is `data/llm_natural/standard.json`.
 
 ## Questions
 
-`question_id`, `sequence_id`, `task_id`, `dimension`, `question_type`, `text`, `user_prompt`, `knowledge_scope` and scheduling fields. Retrieve using `text`; compose answer prompts with `metadata.system_prompt`, retrieved memory, `user_prompt` and `text`. Use `src.qa.prompts.build_messages` for the supplied prompt protocol.
+`question_id`, `sequence_id`, `task_id`, `dimension`, `question_type`, `text`, `user_prompt`, `knowledge_scope` and scheduling fields. Retrieve using `text`; compose answer prompts with `metadata.system_prompt`, retrieved memory, `user_prompt` and `text`. Send `metadata.system_prompt` as the system message. The user message should contain retrieved memory, the question’s `user_prompt`, and `QUESTION: {text}`.
 
 Every question runs at `evaluation_at: trajectory_end`. This scheduling choice does not remove the historical cutoffs in `knowledge_scope`.
 
@@ -24,7 +24,7 @@ Every question runs at `evaluation_at: trajectory_end`. This scheduling choice d
 
 Question `evaluation` contains reference answers, evidence and audit annotations. Evidence uses session timestamps and aligned source text.
 
-The virtual facts and `construction/` contents are construction/evaluation inputs only. They must not be ingested by the memory system.
+The virtual facts are evaluator-side data only. They must not be ingested by the memory system.
 
 ## Evaluation protocol
 

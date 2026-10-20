@@ -1,11 +1,15 @@
-__pycache__/
+# Keep the public release limited to data and documentation.
+src/
+scripts/
+tests/
+construction/
+configs/
+*.py
 *.py[cod]
+__pycache__/
 .DS_Store
 .env
 .env.*
-!.env.example
-configs/*.local.json
-*.checkpoint.json
 work/
 output/
 tmp/

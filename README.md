@@ -8,32 +8,13 @@ DT-MemEval separates when an event happened from when its report became observab
 |---|---:|---:|---:|---:|---|
 | 1.0.0 | 4 | 519 | 2,000 | 8 (250 each) | 6.1-full-history-interchange |
 
-This repository releases the dataset, audited construction inputs, offline question-generation code, and semantic tests. It does not include a baseline runner, a model judge, or experimental scores. No publication, venue acceptance, or DOI is claimed.
+This repository releases the fixed dataset and its documentation. It does not include a baseline runner, a model judge, or experimental scores. No publication, venue acceptance, or DOI is claimed.
 
 ## Quick start
 
-Python 3.10 or newer is required. Offline use needs only the standard library. Download the source archive from the anonymous artifact page, extract it into a directory named `DT-MemEval`, and run:
+Download or clone this repository and load `data/llm_natural/standard.json` in your evaluation framework. The bundle contains sessions, questions, shared prompts and evaluator-only reference answers. No dataset generation or rebuild step is required.
 
-```bash
-cd DT-MemEval
-python scripts/inspect_benchmark.py
-python -m unittest discover -s tests -v
-```
-
-```python
-import json
-from pathlib import Path
-from src.qa.prompts import build_messages
-
-bundle = json.loads(Path("data/llm_natural/standard.json").read_text())
-question = bundle["questions"][0]
-# Replace this full-history example with your memory system's retrieved context.
-context = "\n\n".join(s["memory_input"] for s in bundle["sessions"]
-                         if s["sequence_id"] == question["sequence_id"])
-messages = build_messages(question, context,
-                          system_prompt=bundle["metadata"]["system_prompt"])
-# Send messages to the answering model. Keep question['evaluation'] out of its inputs.
-```
+Ingest session `memory_input` or `messages` in session order for each sequence. Retrieve using question `text`. Send `metadata.system_prompt` as the system message and combine retrieved memories, the question's `user_prompt`, and `QUESTION: {text}` in the user message. Keep question `evaluation` fields out of model inputs.
 
 ## Tasks
 
@@ -54,26 +35,13 @@ Fact intervals use `[start, end)`. Observation time is the session timestamp. A 
 
 ```text
 data/llm_natural/        Dataset, fictional facts and release manifest
-construction/           Compact audited sessions needed for offline reconstruction
-src/                    Temporal semantics, dialogue construction, QA and prompts
-scripts/                Construction tools, offline rebuild, release inspection
-tests/                  Semantic and construction regression tests
 docs/                   Dataset card and data/evaluation specification
+CITATION.cff            Citation metadata
 ```
 
-The virtual facts and construction annotations are evaluator-side artifacts. Memory systems ingest session `memory_input` or `messages`; retrieval uses question `text`. The complete bundle includes gold supervision for evaluation, so it is not safe to feed the entire JSON object to an answering model.
+The virtual facts are evaluator-side data. Memory systems ingest session `memory_input` or `messages`; retrieval uses question `text`. The complete bundle includes gold supervision for evaluation, so it is not safe to feed the entire JSON object to an answering model.
 
-## Reproducibility
-
-```bash
-python scripts/rebuild_full_history_qa.py \
-  --input-dir data/llm_natural \
-  --checkpoint construction/audited_sessions.json \
-  --seed 42 --base-quota 250
-python scripts/inspect_benchmark.py
-```
-
-The QA rebuild uses existing audited dialogue and makes no model calls. It checks the published session objects before rebuilding questions. Historical API generation scripts and naming inputs are excluded. This release supports dataset use and offline QA reconstruction from the frozen audited sessions. Rebuilding QA writes the benchmark and a compact QA rebuild report. The shipped release manifest describes the initial packaged artifacts; compare checksums before and after rebuilding.
+The release manifest records dataset counts and SHA-256 checksums for the packaged files.
 
 ## Model provenance
 

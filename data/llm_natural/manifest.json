@@ -84,12 +84,8 @@
   },
   "artifacts": [
     {
-      "path": ".github/workflows/validate.yml",
-      "sha256": "8e4de85ca970739880f8a92141688a73b97a8cac821a6dd0ffd99f1086528930"
-    },
-    {
       "path": ".gitignore",
-      "sha256": "2bfc547688026cc43d5c6dc57ccb87cecbbc91cedc5e8cc1f64ebe2b85af3ab1"
+      "sha256": "3dd513d3b6b7b75fcca75f5433a898c44e33a333bbfb070a93e8dbdfca3d9bcb"
     },
     {
       "path": "CITATION.cff",
@@ -97,19 +93,15 @@
     },
     {
       "path": "README.md",
-      "sha256": "2f5bd1bbc071737de113b82c63a95edd743e424cb2374bccc6b75a9206f3b8d1"
-    },
-    {
-      "path": "construction/audited_sessions.json",
-      "sha256": "911bd9a4e942ab79826f2bd4de4ba02d41e290c125ae2b6301415c66835cd40a"
-    },
-    {
-      "path": "data/llm_natural/virtual_facts.json",
-      "sha256": "906c464a4bb2c0405f01663baa279ef909e467d8b34ef205966e36dd8d6e8dd7"
+      "sha256": "d01bf35307ca053d3e39eba738b932461bf0997f0c2b75c7ab229d450c8e5fd1"
     },
     {
       "path": "data/llm_natural/standard.json",
       "sha256": "8415eaf91d5d17a6354d0ffa136bae20022d0e84536c0953a68a0734b0a49b2a"
+    },
+    {
+      "path": "data/llm_natural/virtual_facts.json",
+      "sha256": "906c464a4bb2c0405f01663baa279ef909e467d8b34ef205966e36dd8d6e8dd7"
     },
     {
       "path": "docs/DATASET_CARD.md",
@@ -117,71 +109,8 @@
     },
     {
       "path": "docs/DATA_FORMAT.md",
-      "sha256": "8ab9f07b1081855c958c08dcabd28b9a30234f49354e715f341b4cb13dc5431d"
-    },
-    {
-      "path": "scripts/build_dataset.py",
-      "sha256": "7cc75b815775bdd6e32f76bf9aefc1f88dd81503a9cf2ae69bb25a1630754a8b"
-    },
-    {
-      "path": "scripts/inspect_benchmark.py",
-      "sha256": "6fa047c8f1ff5351faadc714160819ca3fee35b0e09bab6a947122e6d927ca1d"
-    },
-    {
-      "path": "scripts/rebuild_full_history_qa.py",
-      "sha256": "634ef1744718c9d75ce8dec82f042e8b9470643629429243b278a457b12ded6f"
-    },
-    {
-      "path": "src/__init__.py",
-      "sha256": "919a9d5df16fb38fcdb31402328ef136b107e3623ddb5a3bf15a89cbca929b69"
-    },
-    {
-      "path": "src/core/__init__.py",
-      "sha256": "c3125ed935402130d63399c70d611398589e508b5bcd1a282bca02a284ae0d5a"
-    },
-    {
-      "path": "src/core/dialogue_scenarios.py",
-      "sha256": "74a7f687eced7ed1f78d16b9ceea9cd5bfd160c96af335f89ebccb8c2b25a397"
-    },
-    {
-      "path": "src/core/natural_dialogue.py",
-      "sha256": "45c7059440a94d802e942d3be5fa6e96cda22a745f0582f96808057ffff8233d"
-    },
-    {
-      "path": "src/core/temporal.py",
-      "sha256": "c43f406921cf006eeef317bbfe996dc683ec7bad947914df9323c846cbdd361d"
-    },
-    {
-      "path": "src/core/validate_dataset.py",
-      "sha256": "40293279a7939a0bc3d4a4f5afd878448d5387665cbff12bda149cb512ceb783"
-    },
-    {
-      "path": "src/qa/__init__.py",
-      "sha256": "92e513d359412b4e83d98aa8119ca78b83555f044171deaf8b568dd7ab63d671"
-    },
-    {
-      "path": "src/qa/checkpoint_qa.py",
-      "sha256": "fdddb5e369855aefbde295f39a8cdc1238bee64735ce1092b88e044f5f08616e"
-    },
-    {
-      "path": "src/qa/competence_qa.py",
-      "sha256": "2956e4be1d009c97514cec77edc5ccc3ca05d412cddef8b1eccb3373c0527367"
-    },
-    {
-      "path": "src/qa/prompts.py",
-      "sha256": "a54d9d6f9cdc7a2c8647d155b9bf9c46e8ae194f6bfdc848c90b704eaeda5c89"
-    },
-    {
-      "path": "src/qa/validation.py",
-      "sha256": "bf17c59cbe8403997d586f54f48f4b8d08904c7ade338174d21162c387d0289b"
-    },
-    {
-      "path": "tests/test_competence_qa.py",
-      "sha256": "0f7fcced966a704c6103327ef07dbeba54c4fd29b93b9759b64a836f25c5e8d1"
+      "sha256": "2103c5e6fe9e5968dd96e0785859c72cf4907a418fbe855dc893ccc25e8bfc78"
     }
   ],
-  "checks": {
-    "offline_tests_passed": 8,
-    "dataset_rebuild_matches_original": true
-  }
+  "distribution": "Dataset and documentation only; generation code and construction inputs are not distributed."
 }
