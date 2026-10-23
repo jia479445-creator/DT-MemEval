@@ -1,0 +1,8 @@
+{
+  "api_keys": [
+    "YOUR_API_KEY"
+  ],
+  "base_urls": [
+    "https://api.openai.com/v1"
+  ]
+}

@@ -1,0 +1,4 @@
+# Python 3.11, separate environment recommended.
+-e membase/layers/LightMem
+litellm>=1.75.9
+smartcomment

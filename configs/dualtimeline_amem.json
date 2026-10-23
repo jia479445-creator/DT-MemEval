@@ -1,0 +1,11 @@
+{
+  "user_id": "guest",
+  "llm_backend": "openai",
+  "llm_model": "gpt-4.1-mini",
+  "llm_api_key": "YOUR_API_KEY",
+  "llm_base_url": "https://api.openai.com/v1",
+  "embedding_provider": "sentence-transformers",
+  "retriever_name_or_path": "sentence-transformers/all-MiniLM-L6-v2",
+  "evo_threshold": 100,
+  "save_dir": "memory/dualtimeline_amem"
+}

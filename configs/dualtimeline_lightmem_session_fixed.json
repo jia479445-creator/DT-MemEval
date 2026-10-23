@@ -1,0 +1,57 @@
+{
+  "user_id": "guest",
+  "save_dir": "memory/dualtimeline_lightmem_session_fixed",
+  "lightmem_config": {
+    "pre_compress": false,
+    "topic_segment": true,
+    "precomp_topic_shared": false,
+    "topic_segmenter": {
+      "model_name": "llmlingua-2",
+      "configs": {
+        "model_name": "microsoft/llmlingua-2-bert-base-multilingual-cased-meetingbank",
+        "device_map": "cuda",
+        "buffer_len": 512
+      }
+    },
+    "messages_use": "hybrid",
+    "metadata_generate": true,
+    "text_summary": true,
+    "memory_manager": {
+      "model_name": "openai",
+      "configs": {
+        "model": "gpt-4.1-mini",
+        "temperature": 0.0,
+        "max_tokens": 4096,
+        "api_config_path": "configs/dualtimeline_amem.json"
+      }
+    },
+    "extract_threshold": 0.1,
+    "index_strategy": "embedding",
+    "text_embedder": {
+      "model_name": "huggingface",
+      "configs": {
+        "model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_dims": 384,
+        "model_kwargs": {
+          "device": "cuda"
+        }
+      }
+    },
+    "retrieve_strategy": "embedding",
+    "embedding_retriever": {
+      "model_name": "qdrant",
+      "configs": {
+        "collection_name": "overwritten-by-adapter",
+        "embedding_model_dims": 384,
+        "path": "overwritten-by-adapter",
+        "on_disk": true
+      }
+    },
+    "update": "offline",
+    "logging": {
+      "level": "INFO",
+      "console_enabled": true,
+      "file_enabled": false
+    }
+  }
+}

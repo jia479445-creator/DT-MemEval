@@ -1,0 +1,25 @@
+{
+  "user_id": "guest",
+  "retriever_name_or_path": "huggingface:sentence-transformers/all-MiniLM-L6-v2",
+  "retriever_dim": 384,
+  "embedding_kwargs": {
+    "model_kwargs": {
+      "device": "cuda"
+    },
+    "encode_kwargs": {
+      "normalize_embeddings": true
+    }
+  },
+  "llm_model": "openai:gpt-4.1-mini",
+  "llm_kwargs": {
+    "api_key": "YOUR_API_KEY",
+    "base_url": "https://api.openai.com/v1",
+    "temperature": 0.0,
+    "max_tokens": 4096
+  },
+  "query_model": null,
+  "enable_inserts": true,
+  "enable_deletes": true,
+  "query_limit": 5,
+  "save_dir": "memory/dualtimeline_langmem"
+}

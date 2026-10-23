@@ -1,0 +1,17 @@
+{
+  "user_id": "guest",
+  "max_tokens": 1200,
+  "deferred": true,
+  "llm_model": "gpt-4.1-mini",
+  "retriever_name_or_path": "huggingface:sentence-transformers/all-MiniLM-L6-v2",
+  "retriever_dim": 384,
+  "embedding_kwargs": {
+    "model_kwargs": {
+      "device": "cuda"
+    },
+    "encode_kwargs": {
+      "normalize_embeddings": true
+    }
+  },
+  "save_dir": "memory/dualtimeline_rag"
+}

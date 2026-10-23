@@ -1,58 +1,105 @@
 # DT-MemEval
 
-**A benchmark for reasoning over factual time and observation time in long-term conversational memory.**
+双时间轴会话记忆数据集与评估项目，数据包含 **4 个领域序列、519 个会话、2,000 道问题、8 类任务**。
 
-DT-MemEval separates when an event happened from when its report became observable. It tests temporal attribution, consolidation across sessions, cross-axis reasoning, and retrospective knowledge states using fictionalized entities and controlled synthetic conversations.
+## 安装
 
-| Release | Sequences | Sessions | Questions | Tasks | Schema |
-|---|---:|---:|---:|---:|---|
-| 1.0.0 | 4 | 519 | 2,000 | 8 (250 each) | 6.1-full-history-interchange |
+推荐 Python 3.11。不同记忆基线的依赖可能冲突，请分别创建环境。
 
-This repository releases the fixed dataset and its documentation. It does not include a baseline runner, a model judge, or experimental scores. No publication, venue acceptance, or DOI is claimed.
-
-## Quick start
-
-Download or clone this repository and load `data/llm_natural/standard.json` in your evaluation framework. The bundle contains sessions, questions, shared prompts and evaluator-only reference answers. No dataset generation or rebuild step is required.
-
-Ingest session `memory_input` or `messages` in session order for each sequence. Retrieve using question `text`. Send `metadata.system_prompt` as the system message and combine retrieved memories, the question's `user_prompt`, and `QUESTION: {text}` in the user message. Keep question `evaluation` fields out of model inputs.
-
-## Tasks
-
-| Dimension | ID | Task | Questions |
-|---|---|---|---:|
-| Temporal attribution | A1 | Single-axis localization | 250 |
-| Temporal attribution | A2 | Dual-time attribution | 250 |
-| Temporal consolidation | B1 | Interval reconstruction | 250 |
-| Temporal consolidation | B2 | Dual-history reconstruction | 250 |
-| Cross-axis reasoning | C1 | Dual-axis ordering | 250 |
-| Cross-axis reasoning | C2 | State determination and earliest sufficient observation | 250 |
-| Epistemic state discrimination | D1 | Retrospective interval knowledge | 250 |
-| Epistemic state discrimination | D2 | Knowledge evolution between observation cutoffs | 250 |
-
-Fact intervals use `[start, end)`. Observation time is the session timestamp. A report about an end can arrive before a report about the corresponding start. All questions are scheduled after the trajectory; D1/D2 still impose explicit historical knowledge cutoffs. Unknown values must remain unknown when the allowed reports do not establish them.
-
-## Repository layout
-
-```text
-data/llm_natural/        Dataset, fictional facts and release manifest
-docs/                   Dataset card and data/evaluation specification
-CITATION.cff            Citation metadata
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install -e .
 ```
 
-The virtual facts are evaluator-side data. Memory systems ingest session `memory_input` or `messages`; retrieval uses question `text`. The complete bundle includes gold supervision for evaluation, so it is not safe to feed the entire JSON object to an answering model.
+安装后可直接运行下方三个实验入口，数据加载与协议校验由运行代码自动完成。
 
-The release manifest records dataset counts and SHA-256 checksums for the packaged files.
+## 最小完整流程：Long-Context
 
-## Model provenance
+先从项目根目录准备独立的回答模型及裁判配置，填写真实服务商支持的模型名称、API key 和地址：
 
-All 519 sessions were generated using **GPT-4o-mini**. Candidate names were generated using **GPT-5.4-mini**. Questions and reference answers are generated programmatically without an LLM.
+```bash
+cp configs/qa_api.example.json configs/qa_api.local.json
+cp configs/judge_api.example.json configs/judge_api.local.json
+```
 
-## Documentation
+构建记忆：
 
-- [Dataset card](docs/DATASET_CARD.md): composition, construction, provenance and limitations.
-- [Data and evaluation specification](docs/DATA_FORMAT.md): fields, visibility rules and evaluation protocol.
-- [Citation metadata](CITATION.cff).
+```bash
+python memory_construction.py \
+  --memory-type Long-Context --dataset-type dualtimeline \
+  --dataset-path data/dualtimeline/standard.json \
+  --config-path configs/dualtimeline_long_context.json
+```
 
-## Citation
+检索：
 
-For anonymous review, cite the artifact as DT-MemEval and record the release/commit used. Do not substitute an unpublished paper title or an invented venue. Please include the QA schema version and the dataset SHA-256 in experimental reports.
+```bash
+python memory_search.py \
+  --memory-type Long-Context --dataset-type dualtimeline \
+  --dataset-path data/dualtimeline/standard.json \
+  --config-path configs/dualtimeline_long_context.json --top-k 10
+```
+
+回答并评分：
+
+```bash
+python memory_evaluation.py \
+  --dataset-type dualtimeline \
+  --search-results-path memory/dualtimeline_long_context/10_0_4.json \
+  --qa-model gpt-4o-mini --api-config-path configs/qa_api.local.json \
+  --judge-model gpt-4o-mini --judge-api-config-path configs/judge_api.local.json \
+  --judge-batch-size 4 \
+  --prompt-template membase.datasets.dualtimeline.qa_prompt --metrics llm_judge
+```
+
+记忆构建和检索按完整领域序列运行；全部会话写入后统一回答。D1/D2 题目中的历史截止时间继续约束答案。
+
+## 已摘取的记忆基线
+
+这些基线在源工程的 DualTimeline 实验目录中有对应记录。保留原始适配器及其需要的本地源码，配置中真实凭证已替换为占位符，模型路径已改成公开模型标识。需要时将公开标识改为服务器上预下载的本地模型路径。
+
+| `--memory-type` | 配置 | 额外依赖 |
+|---|---|---|
+| `Long-Context` | `configs/dualtimeline_long_context.json` | 核心依赖 |
+| `A-MEM` | `configs/dualtimeline_amem.json` | `pip install -r envs/amem_requirements.txt` |
+| `LangMem` | `configs/dualtimeline_langmem.json` | `pip install -r envs/langmem_requirements.txt` |
+| `Mem0` | `configs/dualtimeline_mem0.json` | `pip install -r envs/mem0_requirements.txt` |
+| `NaiveRAG` | `configs/dualtimeline_rag.json` | `pip install -r envs/rag_requirements.txt` |
+| `LightMem` | `configs/dualtimeline_lightmem_session_fixed.json` | `pip install -r envs/lightmem_requirements.txt` |
+
+基线环境建议先安装对应 `envs` 依赖，再 `pip install -e .`。
+
+## 评分输出
+
+`--metrics llm_judge` 产生三个指标：
+
+- `llm_judge`：核心答案是否正确。
+- `evidence_judge`：引用的会话日期是否充分且归属正确。
+- `grounded_accuracy`：答案与证据同时正确。
+
+输出包括逐题结果及 overall / by_task / by_dimension 汇总。裁判调用失败计为 error，值为 null；准确率分母采用成功评分条数。回答在裁判调用前单独保存。
+
+## 数据与提示词
+
+- `data/dualtimeline/standard.json`：会话、问题、公开提示词及裁判专用答案/证据。
+- 回答模型接收 `metadata.system_prompt` 作为 system 消息，user 消息由检索上下文、该题 `user_prompt` 与 `QUESTION: {text}` 组成。
+- `evaluation`、标准答案、证据审计和构造查询仅供评估，不能输入记忆系统或回答模型。
+
+## 目录与来源
+
+```text
+membase/                 MemBase 的运行代码与基线
+memory_construction.py   记忆构建入口
+memory_search.py         检索入口
+memory_evaluation.py     回答与评分入口
+data/dualtimeline/       实验数据集
+configs/                 示例配置
+envs/                    各基线的安装依赖
+```
+
+项目名称为 **DT-MemEval**，内部保留原框架包名 `membase`。这是基于 MemBase 的派生项目，来源和版权见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)、[LICENSE-MemBase](LICENSE-MemBase)。
+
+
+
+MemBase 采用 MIT 许可证，允许使用、修改和分发；随代码保留其版权声明及完整许可声明，见 `LICENSE-MemBase`。第三方基线保留各自适用的许可证。
