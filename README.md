@@ -28,7 +28,7 @@ cp configs/judge_api.example.json configs/judge_api.local.json
 ```bash
 python memory_construction.py \
   --memory-type Long-Context --dataset-type dualtimeline \
-  --dataset-path data/dualtimeline/standard.json \
+  --dataset-path data/standard.json \
   --config-path configs/dualtimeline_long_context.json
 ```
 
@@ -37,7 +37,7 @@ python memory_construction.py \
 ```bash
 python memory_search.py \
   --memory-type Long-Context --dataset-type dualtimeline \
-  --dataset-path data/dualtimeline/standard.json \
+  --dataset-path data/standard.json \
   --config-path configs/dualtimeline_long_context.json --top-k 10
 ```
 
@@ -82,7 +82,7 @@ python memory_evaluation.py \
 
 ## 数据与提示词
 
-- `data/dualtimeline/standard.json`：会话、问题、公开提示词及裁判专用答案/证据。
+- `data/standard.json`：会话、问题、公开提示词及裁判专用答案/证据。
 - 回答模型接收 `metadata.system_prompt` 作为 system 消息，user 消息由检索上下文、该题 `user_prompt` 与 `QUESTION: {text}` 组成。
 - `evaluation`、标准答案、证据审计和构造查询仅供评估，不能输入记忆系统或回答模型。
 
@@ -93,7 +93,7 @@ membase/                 MemBase 的运行代码与基线
 memory_construction.py   记忆构建入口
 memory_search.py         检索入口
 memory_evaluation.py     回答与评分入口
-data/dualtimeline/       实验数据集
+data/       实验数据集
 configs/                 示例配置
 envs/                    各基线的安装依赖
 ```
