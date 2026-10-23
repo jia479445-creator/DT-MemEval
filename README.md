@@ -59,7 +59,7 @@ python memory_evaluation.py \
 
 模型路径为公开模型标识，需要时将公开标识改为服务器上预下载的本地模型路径。
 
-| `--memory-type` | 配置 | 额外依赖 |
+| `memory-type` | 配置 | 额外依赖 |
 |---|---|---|
 | `Long-Context` | `configs/dualtimeline_long_context.json` | 核心依赖 |
 | `A-MEM` | `configs/dualtimeline_amem.json` | `pip install -r envs/amem_requirements.txt` |
